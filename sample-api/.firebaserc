@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "fir-sample-deploy-efa",
+    "carols-firebase-ex": "fir-sample-deploy-efa"
+  }
+}

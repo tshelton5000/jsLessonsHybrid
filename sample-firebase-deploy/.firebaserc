@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "fir-sample-project-gold",
+    "sample-gold": "fir-sample-project-gold"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "second-firebase-sample",
+    "second-firebase": "second-firebase-sample"
+  }
+}

@@ -1,0 +1,5 @@
+<mat-card *ngFor="let quote of quotes">
+  <mat-card-title>Kanye quote #{{quotes.indexOf(quote)}}</mat-card-title>
+  <mat-card-content>{{quote.quote}}</mat-card-content>
+</mat-card>
+<app-quote-count [quotes]="quotes" (customEvent)="eventLog($event)"></app-quote-count>

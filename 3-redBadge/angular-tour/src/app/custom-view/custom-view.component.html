@@ -1,0 +1,4 @@
+<p *ngIf="message">{{message}}</p>
+<button [disabled]="disabled" (click)="disableFunc()">Click to disable me!</button><br/>
+<input #inputRef [(ngModel)]="input"/>
+<p>{{inputRef.value}}</p>
